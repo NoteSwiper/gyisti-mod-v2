@@ -1,0 +1,8 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "gyisti:block/gyistiplant_top",
+    "particle": "gyisti:block/gyistiplant_top"
+  },
+  "render_type": "cutout"
+}

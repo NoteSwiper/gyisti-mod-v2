@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "gyisti:gyisti_player",
+    "weight": 11,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

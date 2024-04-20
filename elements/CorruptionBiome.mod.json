@@ -1,0 +1,149 @@
+{
+  "_fv": 60,
+  "_type": "biome",
+  "definition": {
+    "name": "Corruption Biome",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "grassColor": {
+      "value": -10066432,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -3394561,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": "ambient.crimson_forest.additions"
+    },
+    "music": {
+      "value": "music.overworld.deep_dark"
+    },
+    "moodSound": {
+      "value": "ambient.cave"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "SLIME"
+    },
+    "particlesProbability": 0.1,
+    "rainingPossibility": 0.5,
+    "temperature": 0.4,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.842,
+      "max": 0.855
+    },
+    "genHumidity": {
+      "min": -0.522,
+      "max": 0.655
+    },
+    "genContinentalness": {
+      "min": -0.18,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.17,
+      "max": 0.75
+    },
+    "genWeirdness": {
+      "min": -0.9996,
+      "max": 1.0
+    },
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Big trees",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "SwampVegetation",
+      "PlainsTallGrass",
+      "MonsterRooms"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "savanna",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": true,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "SWAMP",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:GyistiPlayer"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 2,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityVillager"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 7,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityZombie"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 2,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySlime"
+        },
+        "minGroup": 3,
+        "maxGroup": 5,
+        "weight": 17,
+        "spawnType": "ambient"
+      }
+    ]
+  }
+}

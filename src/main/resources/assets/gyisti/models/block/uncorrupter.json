@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gyisti:block/uncorrupter_qr",
+    "up": "gyisti:block/uncorrupter_front",
+    "north": "gyisti:block/uncorrupter_front",
+    "east": "gyisti:block/uncorrupter_front",
+    "south": "gyisti:block/uncorrupter_front",
+    "west": "gyisti:block/uncorrupter_front",
+    "particle": "gyisti:block/uncorrupter_qr"
+  },
+  "render_type": "solid"
+}

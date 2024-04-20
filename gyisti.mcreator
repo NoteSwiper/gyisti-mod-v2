@@ -1,0 +1,522 @@
+{
+  "mod_elements": [
+    {
+      "name": "GyistiPlayer",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyisti_player",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gyisti/models/item/gyisti_player_spawn_egg.json",
+          "src/main/resources/data/gyisti/forge/biome_modifier/gyisti_player_biome_modifier.json",
+          "src/main/java/me/noteswiper/gyisti/entity/GyistiPlayerEntity.java",
+          "src/main/java/me/noteswiper/gyisti/client/renderer/GyistiPlayerRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerCorrupted",
+      "type": "damagetype",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_corrupted",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gyisti/damage_type/player_corrupted.json"
+        ]
+      }
+    },
+    {
+      "name": "OnCorruptExecuted",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_corrupt_executed",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/gyisti/procedures/OnCorruptExecutedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CorruptPlayer",
+      "type": "command",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_player",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/gyisti/command/CorruptPlayerCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Gyisti",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyisti",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CorruptedDustpureiyagaaitemuwoShiiZhongwaru",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_dustpureiyagaaitemuwo_shii_zhongwaru",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/gyisti/procedures/CorruptedDustpureiyagaaitemuwoShiiZhongwaruProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CorruptedDust",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gyisti/models/item/corrupted_dust.json",
+          "src/main/java/me/noteswiper/gyisti/item/CorruptedDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GyistiPlayerLoot",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyisti_player_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gyisti/loot_tables/entities/gyistiplayer.json"
+        ]
+      }
+    },
+    {
+      "name": "GetCorrupted",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_corrupted",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gyisti/advancements/get_corrupted.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptionBiome",
+      "type": "biome",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gyisti/worldgen/placed_feature/corruption_biome_tree.json",
+          "src/main/resources/data/gyisti/worldgen/biome/corruption_biome.json",
+          "src/main/resources/data/gyisti/worldgen/configured_feature/corruption_biome_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptionParticle",
+      "type": "particle",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/gyisti/client/particle/CorruptionParticleParticle.java",
+          "src/main/resources/assets/gyisti/particles/corruption_particle.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptionposiyonnoXiaoGuogaKaiShiShiYongsaretatoki",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptionposiyonno_xiao_guoga_kai_shi_shi_yongsaretatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/gyisti/procedures/CorruptionposiyonnoXiaoGuogaKaiShiShiYongsaretatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Corruption",
+      "type": "potioneffect",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/gyisti/potion/CorruptionMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "CorruptionPotion",
+      "type": "potion",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "UncorruptedDust",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncorrupted_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/gyisti/item/UncorruptedDustItem.java",
+          "src/main/resources/assets/gyisti/models/item/uncorrupted_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "UncorrupterburotukugaYoukuritukusaretatoki",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncorrupterburotukuga_youkuritukusaretatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/gyisti/procedures/UncorrupterburotukugaYoukuritukusaretatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Uncorrupter",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncorrupter",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/gyisti/block/entity/UncorrupterBlockEntity.java",
+          "src/main/resources/data/gyisti/loot_tables/blocks/uncorrupter.json",
+          "src/main/resources/assets/gyisti/models/block/uncorrupter.json",
+          "src/main/resources/assets/gyisti/blockstates/uncorrupter.json",
+          "src/main/java/me/noteswiper/gyisti/block/UncorrupterBlock.java",
+          "src/main/resources/assets/gyisti/models/item/uncorrupter.json"
+        ]
+      }
+    },
+    {
+      "name": "UncorruptingDust",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncorrupting_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gyisti/recipes/uncorrupting_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "GyistiPlant",
+      "type": "plant",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyisti_plant",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/gyisti/block/GyistiPlantBlock.java",
+          "src/main/resources/data/gyisti/loot_tables/blocks/gyisti_plant.json",
+          "src/main/resources/assets/gyisti/models/block/gyisti_plant.json",
+          "src/main/resources/data/gyisti/forge/biome_modifier/gyisti_plant_biome_modifier.json",
+          "src/main/resources/assets/gyisti/models/item/gyisti_plant.json",
+          "src/main/resources/data/gyisti/worldgen/configured_feature/gyisti_plant.json",
+          "src/main/resources/data/gyisti/worldgen/placed_feature/gyisti_plant.json",
+          "src/main/resources/assets/gyisti/blockstates/gyisti_plant.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedSword",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/gyisti/item/CorruptedSwordItem.java",
+          "src/main/resources/assets/gyisti/models/item/corrupted_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "Config",
+      "type": "config",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config"
+    },
+    {
+      "name": "GyistiZombie",
+      "type": "animatedentity",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyisti_zombie",
+      "metadata": {
+        "files": [
+          "src/main/java/me/noteswiper/gyisti/entity/model/GyistiZombieModel.java",
+          "src/main/resources/data/gyisti/forge/biome_modifier/gyisti_zombie_biome_modifier.json",
+          "src/main/java/me/noteswiper/gyisti/entity/GyistiZombieEntity.java",
+          "src/main/resources/assets/gyisti/models/item/gyisti_zombie_spawn_egg.json",
+          "src/main/java/me/noteswiper/gyisti/client/renderer/GyistiZombieRenderer.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "world_corruption_count",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "shake_player",
+      "type": "config boolean entry",
+      "scope": "global",
+      "value": "null"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "corruptedplayer.hurt",
+      "files": [
+        "hit1",
+        "hit2",
+        "hit3",
+        "hit4",
+        "hit5",
+        "hit6"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupted Hurts"
+    },
+    {
+      "name": "corruptedplayer.ambient",
+      "files": [
+        "sfx_ping",
+        "sfx_press1"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupted ambient"
+    },
+    {
+      "name": "uncorrupter.break",
+      "files": [
+        "uncorrupter_break1",
+        "uncorrupter_break2",
+        "uncorrupter_break3",
+        "uncorrupter_break4"
+      ],
+      "category": "block",
+      "subtitle": "Breaks Uncorrupter"
+    }
+  ],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:CorruptionBiome"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:CorruptionBiome"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Uncorrupter"
+    ],
+    "BIOMES:minecraft:has_structure/village_savanna": [
+      "~CUSTOM:CorruptionBiome"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:CorruptionBiome"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_swamp": [
+      "~CUSTOM:CorruptionBiome"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.minecraft.tipped_arrow.effect.corruption_potion": "Arrow of Corruption",
+      "item.minecraft.lingering_potion.effect.corruption_potion": "Lingering Potion of Corruption",
+      "entity.gyisti.gyisti_player": "Gyisti Player",
+      "advancements.get_corrupted.descr": "what",
+      "item.minecraft.splash_potion.effect.corruption_potion": "Splash Potion of Corruption",
+      "msg.not_implemented": "Sorry, but this element has not implemented in production version.",
+      "subtitles.corruptedplayer.ambient": "Corrupted ambient",
+      "item.gyisti.gyisti_player_spawn_egg": "Gyisti Player Spawn Egg",
+      "subtitles.uncorrupter.break": "Breaks Uncorrupter",
+      "item.minecraft.potion.effect.corruption_potion": "Potion of Corruption",
+      "effect.gyisti.corruption": "Corruption",
+      "death.attack.player_corrupted.player": "%1$s corrupted whilst trying to escape %2$s",
+      "advancements.get_corrupted.title": "Get Corrupted LOL",
+      "item_group.gyisti.gyisti": "Gyisti: Remake",
+      "item.gyisti.corrupted_sword": "Corrupted Sword",
+      "biome.gyisti.corruption_biome": "Corruption Biome",
+      "item.gyisti.corrupted_dust": "Corrupted Dust",
+      "entity.gyisti.gyisti_zombie": "Gyisti\u0027s Zombie",
+      "block.gyisti.uncorrupter": "Uncorrupter",
+      "subtitles.corruptedplayer.hurt": "Corrupted Hurts",
+      "death.attack.player_corrupted": "%1$s died by a corruption",
+      "block.gyisti.gyisti_plant": "Gyisti Plant",
+      "death.attack.player_corrupted.item": "%1$s was been corrupted by %2$s using %3$s",
+      "item.gyisti.gyisti_zombie_spawn_egg": "Gyisti\u0027s Zombie Spawn Egg",
+      "item.gyisti.uncorrupted_dust": "Uncorrupted Dust"
+    },
+    "ja_jp": {
+      "item.minecraft.tipped_arrow.effect.corruption_potion": "Arrow of Corruption",
+      "item.minecraft.lingering_potion.effect.corruption_potion": "Lingering Potion of Corruption",
+      "entity.gyisti.gyisti_player": "Gyisti Player",
+      "advancements.get_corrupted.descr": "what",
+      "item.minecraft.splash_potion.effect.corruption_potion": "Splash Potion of Corruption",
+      "msg.not_implemented": "Sorry, but this element has not implemented in production version.",
+      "subtitles.corruptedplayer.ambient": "Corrupted ambient",
+      "item.gyisti.gyisti_player_spawn_egg": "Gyisti Player Spawn Egg",
+      "subtitles.uncorrupter.break": "Breaks Uncorrupter",
+      "item.minecraft.potion.effect.corruption_potion": "Potion of Corruption",
+      "effect.gyisti.corruption": "Corruption",
+      "death.attack.player_corrupted.player": "%1$s corrupted whilst trying to escape %2$s",
+      "advancements.get_corrupted.title": "Get Corrupted LOL",
+      "item_group.gyisti.gyisti": "Gyisti: Remake",
+      "item.gyisti.corrupted_sword": "Corrupted Sword",
+      "biome.gyisti.corruption_biome": "Corruption Biome",
+      "item.gyisti.corrupted_dust": "Corrupted Dust",
+      "entity.gyisti.gyisti_zombie": "Gyisti\u0027s Zombie",
+      "block.gyisti.uncorrupter": "Uncorrupter",
+      "subtitles.corruptedplayer.hurt": "Corrupted Hurts",
+      "death.attack.player_corrupted": "%1$s died by a corruption",
+      "block.gyisti.gyisti_plant": "Gyisti Plant",
+      "death.attack.player_corrupted.item": "%1$s was been corrupted by %2$s using %3$s",
+      "item.gyisti.gyisti_zombie_spawn_egg": "Gyisti\u0027s Zombie Spawn Egg",
+      "item.gyisti.uncorrupted_dust": "Uncorrupted Dust"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gyisti",
+    "modName": "Gyisti",
+    "version": "0.1.2",
+    "description": "huh?",
+    "author": "787noteswiper, user, MCreator",
+    "websiteURL": "https://github.com/NoteSwiper",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "cloth_config",
+      "geckolib",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "me.noteswiper.gyisti"
+  },
+  "mcreatorVersion": 202400115821
+}

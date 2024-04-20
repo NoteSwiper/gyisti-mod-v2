@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gyisti:corruption_biome",
+  "features": "gyisti:gyisti_plant",
+  "step": "vegetal_decoration"
+}

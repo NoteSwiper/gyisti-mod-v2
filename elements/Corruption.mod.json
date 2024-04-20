@@ -1,0 +1,20 @@
+{
+  "_fv": 60,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Corruption",
+    "icon": "corruption1.png",
+    "color": {
+      "value": -3342541,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "CorruptionposiyonnoXiaoGuogaKaiShiShiYongsaretatoki"
+    }
+  }
+}

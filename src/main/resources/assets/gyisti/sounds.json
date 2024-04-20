@@ -1,0 +1,65 @@
+{
+  "corruptedplayer.hurt": {
+    "subtitle": "subtitles.corruptedplayer.hurt",
+    "sounds": [
+      {
+        "name": "gyisti:hit1",
+        "stream": false
+      },
+      {
+        "name": "gyisti:hit2",
+        "stream": false
+      },
+      {
+        "name": "gyisti:hit3",
+        "stream": false
+      },
+      {
+        "name": "gyisti:hit4",
+        "stream": false
+      },
+      {
+        "name": "gyisti:hit5",
+        "stream": false
+      },
+      {
+        "name": "gyisti:hit6",
+        "stream": false
+      }
+    ]
+  },
+  "corruptedplayer.ambient": {
+    "subtitle": "subtitles.corruptedplayer.ambient",
+    "sounds": [
+      {
+        "name": "gyisti:sfx_ping",
+        "stream": false
+      },
+      {
+        "name": "gyisti:sfx_press1",
+        "stream": false
+      }
+    ]
+  },
+  "uncorrupter.break": {
+    "subtitle": "subtitles.uncorrupter.break",
+    "sounds": [
+      {
+        "name": "gyisti:uncorrupter_break1",
+        "stream": false
+      },
+      {
+        "name": "gyisti:uncorrupter_break2",
+        "stream": false
+      },
+      {
+        "name": "gyisti:uncorrupter_break3",
+        "stream": false
+      },
+      {
+        "name": "gyisti:uncorrupter_break4",
+        "stream": false
+      }
+    ]
+  }
+}

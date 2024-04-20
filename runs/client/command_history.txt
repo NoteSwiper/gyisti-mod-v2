@@ -1,0 +1,4 @@
+/locate biome gyisti:corruption_biome
+/tp @s -905 98 -92
+/effect give @s resistance infinite
+/effect give @e[type=gyisti:gyisti_player] minecraft:weakness infinite 255

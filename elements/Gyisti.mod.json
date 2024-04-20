@@ -1,0 +1,11 @@
+{
+  "_fv": 60,
+  "_type": "tab",
+  "definition": {
+    "name": "Gyisti: Remake",
+    "icon": {
+      "value": "CUSTOM:GyistiPlayer.spawn_egg"
+    },
+    "showSearch": true
+  }
+}
